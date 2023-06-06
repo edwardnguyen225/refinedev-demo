@@ -1,4 +1,7 @@
-// `app/page.tsx` is the UI for the `/` URL
-export default function Page() {
-  return <h1>Hello, Home page!</h1>;
+"use client";
+
+import { NavigateToResource } from "@refinedev/nextjs-router/app";
+
+export default function IndexPage() {
+  return <NavigateToResource />;
 }
